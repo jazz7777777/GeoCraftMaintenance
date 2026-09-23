@@ -1,0 +1,21 @@
+name: GeoCraftMaintenance
+version: 1.0.0
+main: com.geocraft.maintenance.GeoCraftMaintenance
+api-version: '1.20'
+author: GeoCraft
+description: Maintenance mode management for GeoCraft SMP.
+
+commands:
+  smpmaintenance:
+    description: Toggles SMP maintenance mode on or off.
+    permission: geocraft.admin
+    usage: /smpmaintenance [on|off|reload]
+    aliases: [maintenancemode, smpmain]
+
+permissions:
+  geocraft.admin:
+    description: Allows toggling maintenance mode and reloading config.
+    default: op
+  geocraft.bypass:
+    description: Allows joining the server while maintenance is active.
+    default: op
