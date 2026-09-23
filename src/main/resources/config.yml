@@ -1,0 +1,10 @@
+# GeoCraft Maintenance Configuration
+
+maintenance-enabled: false
+
+messages:
+  kick-reason: "<red><bold>GeoCraft SMP</bold></red>\n\n<yellow>The server is currently under maintenance.</yellow>\n<gray>Check Discord for updates!</gray>"
+  enabled-broadcast: "<green>Maintenance mode has been <bold>ENABLED</bold>.</green>"
+  disabled-broadcast: "<red>Maintenance mode has been <bold>DISABLED</bold>.</red>"
+  no-permission: "<red>You do not have permission to run this command.</red>"
+  reloaded: "<green>GeoCraft Maintenance config reloaded successfully!</green>"
